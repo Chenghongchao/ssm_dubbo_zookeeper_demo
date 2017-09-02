@@ -366,7 +366,7 @@
     <artifactId>zkclient</artifactId>
     <version>0.1</version>
   </dependency>
-
+<!-- 导入dubbo和zookeeper的jar包完毕 -->
   <build>
 
     <finalName>ROOT</finalName>
