@@ -1,6 +1,7 @@
 package com.dubbo.service.impl;
 
 import com.dubbo.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.Map;
 
@@ -9,8 +10,9 @@ import java.util.Map;
  * Supported By 甜瓜移动.
  * Official Website: www.melonmobile.cn.
  */
-public class UserServiceImpl implements UserService {
+@Service
+public class UserServiceImpl extends baseService implements UserService {
     public int addUser(Map map) {
-        return 0;
+        return userdao.insert(map);
     }
 }

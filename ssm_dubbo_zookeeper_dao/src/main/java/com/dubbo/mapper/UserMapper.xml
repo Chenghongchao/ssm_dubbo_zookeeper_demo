@@ -19,13 +19,13 @@
     delete from user
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.dubbo.model.User" >
+  <insert id="insert" parameterType="java.util.Map" >
     insert into user (id, userName, userPassword
       )
     values (#{id,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR}, #{userPassword,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.dubbo.model.User" >
+  <insert id="insertSelective" parameterType="java.util.Map" >
     insert into user
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
