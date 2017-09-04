@@ -1,6 +1,6 @@
 package com.dubbo.service.impl;
 
-import com.dubbo.service.userService;
+import com.dubbo.service.UserService;
 
 import java.util.Map;
 
@@ -9,7 +9,7 @@ import java.util.Map;
  * Supported By 甜瓜移动.
  * Official Website: www.melonmobile.cn.
  */
-public class userServiceImpl implements userService {
+public class UserServiceImpl implements UserService {
     public int addUser(Map map) {
         return 0;
     }
