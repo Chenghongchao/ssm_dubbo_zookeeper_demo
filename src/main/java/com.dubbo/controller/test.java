@@ -1,4 +1,4 @@
-package com.xin.controller;
+package com.dubbo.controller;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
