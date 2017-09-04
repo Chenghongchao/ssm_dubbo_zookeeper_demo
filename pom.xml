@@ -341,32 +341,34 @@
       <version>1.6.5</version>
     </dependency>
     <!-- 解压文件导入包结束 -->
+
+    <!--导入dubbo和zookeeper的jar包 -->
+    <!--<dependency>-->
+      <!--<groupId>cn.test</groupId>-->
+      <!--<artifactId>test-maven-api</artifactId>-->
+      <!--<version>0.0.1-SNAPSHOT</version>-->
+    <!--</dependency>-->
+
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>dubbo</artifactId>
+      <version>2.5.3</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>3.4.6</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.sgroschupf</groupId>
+      <artifactId>zkclient</artifactId>
+      <version>0.1</version>
+    </dependency>
+    <!-- 导入dubbo和zookeeper的jar包完毕 -->
   </dependencies>
-  <!--导入dubbo和zookeeper的jar包 -->
-  <dependency>
-    <groupId>cn.test</groupId>
-    <artifactId>test-maven-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </dependency>
 
-  <dependency>
-    <groupId>com.alibaba</groupId>
-    <artifactId>dubbo</artifactId>
-    <version>2.5.3</version>
-  </dependency>
-
-  <dependency>
-    <groupId>org.apache.zookeeper</groupId>
-    <artifactId>zookeeper</artifactId>
-    <version>3.4.6</version>
-  </dependency>
-
-  <dependency>
-    <groupId>com.github.sgroschupf</groupId>
-    <artifactId>zkclient</artifactId>
-    <version>0.1</version>
-  </dependency>
-<!-- 导入dubbo和zookeeper的jar包完毕 -->
   <build>
 
     <finalName>ROOT</finalName>
