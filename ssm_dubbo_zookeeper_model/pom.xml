@@ -13,16 +13,4 @@
     <artifactId>model</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-<dependencies>
-    <dependency>
-        <groupId>com.dubbo.service</groupId>
-        <artifactId>service</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-        <groupId>com.dubbo.dao</groupId>
-        <artifactId>dao</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
-</dependencies>
 </project>
